@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* căn giữa phần tử */
+    display: flex;
+    justify-content: center;
+    position: static;
+}
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background: white;
+    border: solid black 1px;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+}
+
+#inp{
+    position: relative;
+    top: 50px;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+button{
+    position: relative;
+    top: 50px;
+    width: 250px;
+    height: 40px;
+    margin-top: 65px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#out{
+    position: relative;
+    top: 50px;
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: default;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 3px;
+    padding-left: 5px;
+    text-align: center;
+    
+    /* bỏ hiệu ứng focus của thẻ input */
+    outline: none;
+}
