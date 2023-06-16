@@ -1,5 +1,5 @@
 # Giải thuật tìm bội chung nhỏ nhất
-Theo định nghĩa, BCNN của 2 số a và b
+Theo định nghĩa, BCNN của 2 số a và b <br>
 --> là số nhỏ nhất chia hết cho cả 2 số a và b.
 
 Nắm rõ tính chất này, ta có thể đi vào một số thuật toán tìm BCNN như sau:
